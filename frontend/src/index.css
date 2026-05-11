@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===================================================== */
+/* ROOT VARIABLES */
+/* ===================================================== */
+
+:root {
+
+  --main-bg: #020617;
+
+  --card-bg: #0f172a;
+
+  --text-color: #ffffff;
+
+}
+
+/* ===================================================== */
+/* PURPLE THEME */
+/* ===================================================== */
+
+.purple-theme {
+
+  --main-bg: #2e1065;
+
+  --card-bg: #3b0764;
+
+  --text-color: #ffffff;
+
+}
+
+/* ===================================================== */
+/* EMERALD THEME */
+/* ===================================================== */
+
+.emerald-theme {
+
+  --main-bg: #022c22;
+
+  --card-bg: #064e3b;
+
+  --text-color: #ffffff;
+
+}
+
+/* ===================================================== */
+/* GLOBAL BODY */
+/* ===================================================== */
+
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+  background-color: var(--main-bg);
+
+  color: var(--text-color);
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease;
+
+}
+
+/* ===================================================== */
+/* GLOBAL SMOOTH UI */
+/* ===================================================== */
+
+* {
+
+  box-sizing: border-box;
+
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+
+}
